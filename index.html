@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./app.js" type="module" defer></script>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <title>Superheroes</title>
+  </head>
+  <body>
+    <header class="container">
+    <section class="card">
+      <nav>
+        <h1>Superhero DB</h1>
+        <form class="form">
+          <input type="search" placeholder="search hero" name="search" />
+          <button type="submit"><i class="fa-brands fa-searchengin"></i></button>
+         <div class = "search-list" id = "search-list">
+            <!--   <div class = "search-list-item">
+              <img src = "images/247.jpg" alt = "">
+                <p>Batman</p>
+            </div> -->
+         </div>
+        </form>
+      </nav>
+    </section>
+    </header>
+
+    <main class="container main">
+        <section class="card main-content">
+            <div class="thumbnail">
+                <img src="./images/247.jpg" alt="">
+            </div>
+
+
+            <div class="main-content-list">
+                <div>
+                    <div class="hero-name">Black Panther</div>
+                </div>
+
+                <!-- head tabs -->
+
+                <div class="btn-control">
+                    <button type="button" class="button" data-id='1'><span>Powerstat</span></button>
+                    <button type="button" class="button" data-id='2'><span>Biography</span></button>
+                    <button type="button" class="button" data-id='3'><span>Appearance</span></button>
+                </div>
+
+                 <!-- body tabs -->
+
+                <div class="tab-body">
+                    <ul class="tab-body-single Powerstat">
+                        <li>
+                            <i class="fa-solid fa-meteor"></i>
+                            <span>Intelligence</span>
+                            <span>100</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-meteor"></i>
+                            <span>Strength</span>
+                            <span>70</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-meteor"></i>
+                            <span>Speed</span>
+                            <span>65</span>
+                        </li>
+                    </ul>
+
+
+                    <ul class = "tab-body-single biography">
+                        <li>
+                            <span>full name:</span>
+                            <span>T'Challa</span>
+                        </li>
+                        <li>
+                            <span>Publisher:</span>
+                            <span>Marvel Comics</span>
+                        </li>
+                        <li>
+                            <span>place of birth:</span>
+                            <span>Wakanda, Africa</span>
+                        </li>
+                        <li> 
+                            <span>first-apperance:</span>
+                            <span>The black Panther</span>
+                        </li>
+                    </ul>
+
+                    <ul class = "tab-body-single Appearance">
+                        <li><span><i class="fa-solid fa-eye"></i>Gender</span>
+                        <span>Male</span></li>
+                        <li><span><i class="fa-solid fa-eye"></i>Race</span>
+                        <span>human</span></li>
+                        <li><span><i class="fa-solid fa-eye"></i>Height</span>
+                        <span>6'0</span></li>
+                        <li><span><i class="fa-solid fa-eye"></i>Weight</span>
+                        <span>200</span></li>
+                        <li><span><i class="fa-solid fa-eye"></i>Eye-color</span>
+                        <span>Brown</span></li>
+                        <li><span><i class="fa-solid fa-eye"></i>hair-color</span>
+                        <span>black</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+  </body>
+</html>
