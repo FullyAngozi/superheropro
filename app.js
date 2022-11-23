@@ -86,7 +86,7 @@ searchList.addEventListener('click', (event) => {
     })
     showSuperheroDetails(singleData);
     searchList.innerHTML = "";
-    searchList.remove();
+    // searchList.remove();
 });
 
 const showSuperheroDetails = (data) => {
